@@ -1,3 +1,5 @@
+package ec.edu.epn;
+
 public class Producto {
 
     private String nombreProducto;

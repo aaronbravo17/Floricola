@@ -1,1 +1,4 @@
-/home/aaron/IdeaProjects/Floricola/src/test/java/ClienteTest.java
+/home/vicmai/IdeaProjects/Floricola/src/test/java/ec/edu/epn/obtenerCliente/IBaseClienteTest.java
+/home/vicmai/IdeaProjects/Floricola/src/test/java/ClienteTest.java
+/home/vicmai/IdeaProjects/Floricola/src/test/java/ec/edu/epn/consultarCliente/iDataBClienteTest.java
+/home/vicmai/IdeaProjects/Floricola/src/test/java/ec/edu/epn/ingresarDetalle/IBaseDetalleTest.java

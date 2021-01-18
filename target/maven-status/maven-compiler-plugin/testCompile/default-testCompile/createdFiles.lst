@@ -1,1 +1,4 @@
+ec/edu/epn/consultarCliente/iDataBClienteTest.class
+ec/edu/epn/ingresarDetalle/IBaseDetalleTest.class
+ec/edu/epn/obtenerCliente/IBaseClienteTest.class
 ClienteTest.class
