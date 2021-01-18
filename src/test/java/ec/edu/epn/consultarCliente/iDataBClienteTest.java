@@ -15,10 +15,10 @@ public class iDataBClienteTest {
         Mockito.when(c.consultarCliente(Mockito.any())).thenReturn(new Cliente(Cliente.ExisteCliente.YES));
 
         assertTrue(procesador.ejecutarConsulta("1717663080"));
-
+        System.out.println("Cliente registrado en el sistema");
     }
-    @Test
 
+    @Test
     public void given_an_ID_when_IF_Dont_exist_then_NO()
     {
         IDataBCliente c = Mockito.mock(IDataBCliente.class);
@@ -26,7 +26,7 @@ public class iDataBClienteTest {
         Mockito.when(c.consultarCliente(Mockito.any())).thenReturn(new Cliente(Cliente.ExisteCliente.NO));
 
         assertFalse(procesador.ejecutarConsulta("0123456789"));
-
+        System.out.println("Cliente no registrado en el sistema");
     }
 
 
