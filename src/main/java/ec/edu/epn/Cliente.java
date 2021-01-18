@@ -35,7 +35,7 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "\tCliente{" + "cedulaCliente=" + cedulaCliente + ", nombreCliente=" + nombreCliente + ", pedidos=" + pedidos + '}';
+        return "\nCliente {\nnombreCliente=" + nombreCliente + "\ncedulaCliente=" + cedulaCliente + "\npedidos=" + pedidos + '}';
     }
 
 
